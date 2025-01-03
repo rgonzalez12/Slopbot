@@ -21,7 +21,6 @@ A simple Discord bot that uses OpenAI’s image generation API (DALL·E) to crea
 ### 1. Clone the Repository
 
 ```bash
-Copy code
 git clone https://github.com/yourusername/slopbot.git
 cd slopbot
 ```
@@ -29,7 +28,6 @@ cd slopbot
 ### 2. Install Dependencies
 
 ```bash
-Copy code
 npm install
 This installs discord.js, openai, dotenv, and any other required packages.
 ```
