@@ -1,13 +1,11 @@
 require('dotenv').config();
 const { Client, IntentsBitField } = require('discord.js');
-const { Configuration, OpenAIApi } = require('openai');
+const OpenAI = require('openai');
 
 // 1. Configure OpenAI
-const openai = new OpenAIApi(
-  new Configuration({
+const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-  })
-);
+  });
 
 // 2. Configure Discord client
 const client = new Client({
