@@ -33,7 +33,7 @@ client.on('messageCreate', async (message) => {
     const prompt = message.content.replace('!create', '').trim();
 
     if (!prompt) {
-      return message.reply('Please provide a prompt: `!draw <your prompt>`');
+      return message.reply('Please provide a prompt: `!create <your prompt>`');
     }
 
     try {
